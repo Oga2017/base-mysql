@@ -1,0 +1,38 @@
+.root {
+    -fx-background-image: url("/Res/back.png");
+}
+.button {
+    -fx-background-color:
+            #000000,
+            linear-gradient(#7ebcea, #2f4b8f),
+            linear-gradient(#426ab7, #263e75),
+            linear-gradient(#395cab, #223768);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 0 0 0 0;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);
+}
+.button:hover {
+-fx-background-color:
+        #000000,
+        linear-gradient(#2b4b85, #478aeb),
+        linear-gradient(#3363a8, #3c89de),
+        linear-gradient(#3d72c6, #497ddf);
+}
+.button Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);
+}
+.label{
+    -fx-text-fill: #0c18eb;
+    -fx-effect: dropshadow( one-pass-box , rgba(21, 25, 21, 0.78), 0, 0.0 , 0 , 1);
+}
+
+.text-field{
+    -fx-border-color: #2b4b85;
+    -fx-border-radius: 5;
+    -fx-border-width: 1;
+    -fx-background-radius: 5;
+    -fx-background-color: rgba(21, 25, 21, 0.09);
+}
